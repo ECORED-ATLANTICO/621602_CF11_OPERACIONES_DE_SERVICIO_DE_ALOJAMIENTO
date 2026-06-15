@@ -316,7 +316,8 @@ figcaption, caption
 
 .linea-tiempo-d
   table
-    min-width: 600px
+    min-width: 200px
+    overflow-x: scroll
     
 .crd_hover_txt
   position: relative  
@@ -356,16 +357,16 @@ figcaption, caption
     padding: 20px !important
     background-color: $color-acento-botones-a5
     
-.linea-tiempo-d
-  &__item:nth-child(6)
-    .linea-tiempo-d__item__content__title
-      height: 100px !important
-      @media screen and (min-width: 576px)
-        height: 70px !important
-      @media screen and (min-width: 992px)
-        height: 60px !important
-      @media screen and (min-width: 1280px)
-        height: 50px !important
+// .linea-tiempo-d
+//   &__item:nth-child(6)
+//     .linea-tiempo-d__item__content__title
+//       height: 100px !important
+//       @media screen and (min-width: 576px)
+//         height: 70px !important
+//       @media screen and (min-width: 992px)
+//         height: 60px !important
+//       @media screen and (min-width: 1280px)
+//         height: 50px !important
 
 .tabla-a
   &--text-left
@@ -417,3 +418,9 @@ ul.checklist
   width: 4.5% !important
   &__numero
     color: $white !important
+
+.height-custom
+  @media screen and (min-width: 769px)
+    min-height: 256px !important
+  @media screen and (min-width: 1280px)
+    min-height: 232px !important

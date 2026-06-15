@@ -60,16 +60,16 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
         p Los cargos corresponden a los diferentes movimientos financieros que pueden registrarse dentro de una operación, cuenta o sistema de gestión. Cada tipo de cargo cumple una función específica y permite llevar un control adecuado de los ingresos, salidas de dinero, ajustes y transacciones realizadas por los usuarios o clientes. Conocer la finalidad de cada uno facilita el registro correcto de las operaciones y contribuye a mantener la trazabilidad y exactitud de la información financiera.
-        p.mb-0 A continuación, se presentan los principales tipos de cargos utilizados en el proceso:
+        p.mb-4.mb-lg-0 A continuación, se presentan los principales tipos de cargos utilizados en el proceso:
       .col-sm-10.col-lg-5
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema5/4.png", alt="")
     
-    .row.justify-content-center.align-items-center
-      .col-sm-10.col-lg-5
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-10.col-lg-5.d-none.d-xl-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/5.png", alt="" data-aos="zoom-in-down")
-      .col-lg-7
+      .col-xl-7
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Abonos")
             .col-auto
@@ -88,10 +88,10 @@
               p.mb-0 Es el desembolso realizado por caja de recepción para cubrir un servicio externo que el huésped autoriza le sea cargado a su cuenta y por lo tanto afecta el balance del cajero en turno. Generalmente los hoteles aplican un cargo adicional a título de comisión por este servicio, sobre el cual se cobra IVA por ser un ingreso para el hotel, si se da este caso:
           .row(numero="6" titulo="Registro de <em>Paid Out</em>")
             .col-auto
-              .titulo-sexto.color-acento-contenido.mb-4
+              .titulo-sexto.color-acento-contenido
                 h5 Tabla 3.
                 span Registro de Paid Out
-              .tabla-a.color-acento-contenido.mb-5.tabla-a--text-left
+              .tabla-a.color-acento-contenido.tabla-a--text-left
                 table
                   caption Nota. SENA, (2026).
                   tbody
@@ -107,10 +107,76 @@
                     tr(style="background-color: #FFFFFF")
                       td(colspan="2") Total a cargo del huésped
                       td $ 22.380
+          .row(numero="7" titulo="Avance en efectivo")
+            .col-auto
+              p.mb-0 Es un préstamo que se hace al huésped con cargo a su cuenta y obedece a necesidades externas a los servicios prestados por el hotel. En muchas ocasiones este servicio se presta contra un pago inmediato, por ello, si se cuenta con PMS debe hacerse en una ventana diferente a la que soporta los demás cargos, con el fin de cerrar esa venta al momento.
+          .row(numero="4" titulo="Devoluciones")
+            .col-auto
+              p.mb-0 Se presentan cuando es necesario retirar dinero de la caja de recepción para retornar al huésped un dinero sobrante, ya sea porque su anticipo sigue superando el saldo a pagar o porque hace el pago en moneda extranjera y no es posible tener un valor exacto teniendo en cuenta la tasa de cambio.
 
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-xl-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 1.
+          span Tipos de cargos hoteleros
+        .row.justify-content-center.align-items-stretch.mb-2
+          .col-lg-6.overflow-hidden.rounded-4
+            .p-4.py-3.bg-secundario-s5.rounded-4.mb-2
+              p.mb-2 CASO A  
+              p.mb-0 #[strong Anticipo excede el consumo]
+            .p-4.py-3.bg-acento-botones-a5.rounded-4.mb-2.mb-lg-0.height-custom
+              p Valor del anticipo reportado el día del registro: $500.000
+              p Monto total de sus consumos: $420.000
+              p Devolución generada: $80.000
 
+          .col-lg-6
+            .p-4.py-3.bg-secundario-s5.rounded-4.mb-2
+              p.mb-2 CASO B  
+              p.mb-0 #[strong Devolución por tasa de cambio]
+            .p-4.py-3.bg-acento-botones-a5.rounded-4
+              p Valor de los consumos: $420.000
+              p Tasa de cambio del dólar: $3.350
+              p Dólares a pagar ($420.000 / $3.350): USD $125,38
+              p Dólares entregados por el huésped: USD $130
+              p Devolución generada (130 - 125,38) * $3.350: $15.477
+      
+        figcaption Nota. SENA, (2021).
 
-
+    AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t5").mb-5
+      .row.justify-content-center.align-items-center(titulo="Documentos de soporte")
+        .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
+          p Los documentos de soporte son registros que respaldan y evidencian las transacciones realizadas durante la estadía del huésped. Estos documentos permiten garantizar la trazabilidad de los movimientos efectuados en la cuenta, facilitar los procesos de control y verificación, y asegurar la correcta gestión administrativa y financiera del establecimiento. Como resultado de las operaciones registradas en el plan de cuentas y los movimientos generados en la cuenta huésped, se producen diversos documentos de soporte, entre los cuales se encuentran los descritos por Peña (2010):
+        .col-sm-8.col-lg-4.col-xl-3
+          figure
+            img(src="@/assets/curso/tema5/6.png", alt="")
+      .row.justify-content-center.align-items-center(titulo="Soportes de débito")
+        .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
+          p Los movimientos de débito, como lo menciona Peña (2010) es decir los que aumentan la cuenta del cliente, deben tener como soporte, comandas o soportes de consumo debidamente firmadas por:
+          p.mb-0 Cargos por los consumos en los diferentes ambientes del hotel (restaurante, bar, room service, bar habitación, banquetes y eventos).
+          p.mb-0 Cargos en los servicios de comunicaciones (Internet, teléfono, fax, etc.).
+          p.mb-0 Cargos por los servicios de banquetes.
+          p.mb-0 Cargos por anticipos a huéspedes (en caso de que esté contemplado dentro de las políticas del hotel).
+          p.mb-0 Cargos por las ventas de tiendas por departamentos.
+          p.mb-0 Cargos por los servicios de peluquería.
+          p.mb-0 Cargos por los servicios de taxis.
+          p.mb-0 Transferencias de naturaleza débito (cargos asumidos de otras cuentas)..
+          p.mb-0 Cargos por consumos en negocios con los cuales el hotel mantenga convenios comerciales.
+          p.mb-0 Los cargos por servicios de alojamiento, que se realizan en la auditoría nocturna se soportan en el contrato de alojamiento.
+        .col-sm-8.col-lg-4.col-xl-3
+          figure
+            img(src="@/assets/curso/tema5/7.png", alt="")
+      .row.justify-content-center.align-items-center(titulo="Soportes de crédito")
+        .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
+          p Los movimientos créditos o abonos a la cuenta huésped se realizan por los siguientes conceptos:
+          p.mb-0 Aplicación de depósitos de reservas.
+          p.mb-0 Abonos parciales en efectivo.
+          p.mb-0 Descuentos y ajustes.
+          p.mb-0 Transferencias de naturaleza crédito.
+          p.mb-0 Reversión por cargos errados.
+          p.mb-0 Cancelación de la cuenta (efectivo, moneda extranjera, tarjetas de crédito, cartera con empresas, agencias de viajes y particulares).
+        .col-sm-8.col-lg-4.col-xl-3
+          figure
+            img(src="@/assets/curso/tema5/8.png", alt="")
 
 
 
