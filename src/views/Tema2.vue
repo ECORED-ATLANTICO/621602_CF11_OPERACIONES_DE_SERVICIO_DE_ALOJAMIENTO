@@ -25,7 +25,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema2/2.png", alt="")
-          .crd_hover_txt--body.bg-bg-secundario-s5
+          .crd_hover_txt--body.bg-secundario-s5
             h4.mb-3.text-start Ejemplos de activos
             p.mb-0.text-start Incluyen la propiedad de un teléfono celular, un libro de texto, o dos boletos para un concierto.
     
@@ -34,7 +34,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema2/3.png", alt="")
-          .crd_hover_txt--body.bg-bg-secundario-s5
+          .crd_hover_txt--body.bg-secundario-s5
             h4.mb-3.text-start Ejemplos de pasivos
             p.mb-0.text-start Incluyen un contrato para pagar el teléfono celular mensualmente, una deuda financiera para pagar un automóvil.
     
