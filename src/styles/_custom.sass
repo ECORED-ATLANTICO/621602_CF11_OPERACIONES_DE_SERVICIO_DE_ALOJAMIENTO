@@ -162,6 +162,9 @@ figcaption, caption
 .w-120
   max-width: 120px
   margin: 0 auto
+.w-130
+  max-width: 130px
+  margin: 0 auto
 .w-135
   max-width: 135px
   margin: 0 auto
@@ -319,6 +322,15 @@ figcaption, caption
     min-width: 200px
     overflow-x: scroll
     
+  &.variante-secundario
+    .linea-tiempo-d__item
+      &.row.linea-tiempo-d__item--selected
+        .linea-tiempo-d__item__number
+          background-color: $color-acento-botones
+          color: white
+        .linea-tiempo-d__item__content
+          background-color: $color-secundario-s5
+
 .crd_hover_txt
   position: relative  
   padding: 0 !important
