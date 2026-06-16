@@ -104,13 +104,68 @@ export default {
   },
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Check out</em>',
+      significado:
+        'es el proceso por el cual una persona después de estar hospedada en un hotel, al momento de retirarse debe dirigirse a la recepción para cancelar los pendientes.',
+    },
+    {
+      termino: 'FOB',
+      significado:
+        'es el precio de venta de los bienes puestos en un medio de transporte marítimo, sin incluir valor de seguro y fletes.',
+    },
+    {
+      termino: 'Gravamen',
+      significado:
+        'impuesto o carga que se aplica sobre un bien, riqueza o propiedad que pertenece a una persona y para indicar que se encuentra comprometido.',
+    },
+    {
+      termino: 'Renta',
+      significado:
+        'utilidad o el beneficio que rinde algo o lo que de ello se cobra.',
+    },
+    {
+      termino: 'Tela género',
+      significado:
+        'tela conocida como alegro o microfibra, es un textil suave y ancho.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Actualícese. (2018). <em>Beneficio tributario para hoteles en municipios con menos de 200.000 habitantes no necesita decreto</em>. Actualícese.',
+      link:
+        'https://actualicese.com/beneficio-tributario-para-hoteles-en-municipios-con-menos-de-200-000-habitantes-no-necesita-decreto/',
+    },
+    {
+      referencia:
+        'DECRETO 2755 DE 2003. [Ministro del Interior y de Justicia de la República de Colombia]. Por medio del cual de reglamenta el artículo 207-2 del Estatuto Tributario. Artículo 10. Septiembre 30 de 2003. (Colombia)',
+      link: '',
+    },
+    {
+      referencia: 'DIAN. (s.f.). <em>Obligados a facturar</em>. Impuestos.',
+      link:
+        'https://www.dian.gov.co/impuestos/sociedades/Paginas/obligadosfacturar.aspx',
+    },
+    {
+      referencia:
+        'Gerencie.com. (2020). <em>Requisitos de la factura de venta</em>. Gerencie.com.',
+      link: 'https://www.gerencie.com/requisitos-de-la-factura.html',
+    },
+    {
+      referencia:
+        'Ministerio de Hacienda. (2016). <em>Tabla IVA Canasta familiar</em>. DIAN.',
+      link:
+        'https://www.dian.gov.co/impuestos/Reforma%20Tributaria%20Estructural/Listado%20completo%20IVA%20Canasta%20Familiar.pdf',
+    },
+    {
+      referencia:
+        'Peña, A. (2010). <em>Contabilidad hotelera, de restaurantes y de gestión</em>. Cartagena: Universidad Libre.',
+      link:
+        'http://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/ceac/CONTABILIDAD_HOTELERA_DE_RESTAURANTES_Y_DE_GESTION.pdf',
+    },
+    {
+      referencia:
+        'Scheel, A. (1992). <em>Control de alojamiento y contabilidad de huéspedes</em>. Bogotá: Edinter.',
       link: '',
     },
   ],
@@ -135,9 +190,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Harbey Enrique Castelblanco',
+          cargo: 'Experto temático',
+          centro: 'Centro Nacional Colombo Alemán',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -145,19 +205,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrés Felipe Herrera Roldan',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Fabio Fonseca Arguelles',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -165,14 +225,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },

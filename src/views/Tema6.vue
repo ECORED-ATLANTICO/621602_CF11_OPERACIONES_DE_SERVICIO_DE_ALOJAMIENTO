@@ -159,11 +159,51 @@
 
     p.mb-4.mb-lg-5 La implementación de esta modalidad de facturación es reciente en nuestro país y la administración de impuestos y aduanas nacionales (DIAN) tiene dentro de su plan, dejarlo como único sistema válido de facturación. Estas son las Leyes, Decretos y resoluciones que la reglamentan.
 
+    .p-4.bg-secundario-s10.rounded-4.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p El artículo 26 de la Ley 962 de 2005 (Racionalización de trámites) define que la factura electrónica podrá expedirse, aceptarse, archivarse usando cualquier tipo de tecnología disponible, garantizando la autenticidad e integridad desde su expedición y durante todo el tiempo de conservación, aplicando el principio de neutralidad tecnológica. El Estatuto Tributario maneja los siguientes artículos sobre facturación electrónica:
+        .col-lg-2.col-md-3.col-12.d-flex.justify-content-center
+          a.boton.color-acento-botones.my-2(:href="obtenerLink('/downloads/factura_electronica.pdf')" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
 
+    .bg-title.p-3.rounded-5.pe-5.mb-5(data-aos="fade-down-right")
+      h5.mb-0 Folios maestros
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-10.col-lg-5
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema6/13.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        p Los folios maestros son cuentas que se utilizan para registrar los ingresos en los que no se hace uso de las habitaciones. En los sistemas informáticos o en el registro contable del hotel cuando una persona registra el ingreso el sistema abre un folio (no una factura), en este folio se harán los cargos de los consumos durante la estadía. Pero hay casos donde se necesita registrar consumos o ventas sin hacer uso de estos folios de habitación.
+        p.mb-0 Un caso clásico son las cuentas de banquetes, en estos casos cuando se hace uso de los salones de banquetes, no se usan habitaciones de alojamiento. Pero hay que registrar los consumos de alimentos y bebidas, servicios audiovisuales, etc. Es allí donde se abre una cuenta o folio maestro. Tiene las mismas propiedades y comportamiento de la cuenta huésped, excepto que tiene tarifa de alojamiento (0) cero y estadísticamente no afectan la ocupación del hotel.
 
+    .p-4.py-3.bg-secundario-s10.rounded-4.mb-5
+      p.mb-0.text-center También tienen otros usos como:
 
+    SlyderF(columnas="col-sm-6 col-lg-6 col-xl-4 mb-5")
+      .tarjeta.bg-img.bg-img--3.p-4.py-5.d-flex.align-items-center
+        p.text-center.mb-0 Cuando por algún motivo una cuenta huésped queda sin pagarse, pero se necesita liberar la habitación, con previa autorización del jefe de recepción se puede abrir una cuenta maestra y transferir los cargos.
+      .tarjeta.bg-img.bg-img--3.p-4.py-5.d-flex.align-items-center
+        p.text-center.mb-0 Para registrar las ventas de terceros y misceláneos, aplica para el caso de exposiciones de arte, vitrinas y concesiones.
+      .tarjeta.bg-img.bg-img--3.p-4.py-5.d-flex.align-items-center
+        p.text-center.mb-0 Para cargar consumos a empleados.
+      .tarjeta.bg-img.bg-img--3.p-4.py-5.d-flex.align-items-center
+        p.text-center.mb-0 Para transferir cuentas por cobrar de compañías con fecha de corte de facturación vencida.
+      .tarjeta.bg-img.bg-img--3.p-4.py-5.d-flex.align-items-center
+        p.text-center.mb-0 Cuentas de grupos.
 
+    .bg-title.p-3.rounded-5.pe-5.mb-5(data-aos="fade-down-right")
+      h5.mb-0 División de folios
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-10.col-lg-5
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema6/14.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        p La división es un proceso que se va a encontrar en el día a día del trabajo de caja. Consiste en pasar cargos de un folio a otro dentro la misma cuenta huésped. Como mencionamos al momento del registro el sistema abre un folio para que se efectúen los cargos del cliente. Pero muchas veces por control de costos o por organización los clientes pedirán que los cargos de alojamiento se facturen aparte de los otros gastos. Esto puede suceder porque la habitación la cubre la empresa y los gastos extras el huésped o por otras razones.
+        p.mb-0 En los sistemas informáticos PMS, esta tarea es muy sencilla, ya que solo se debe marcar el cargo y pasarlo a otra ventana (así se conocen los subfolios dentro de la misma cuenta) Si no se utiliza sistema PMS, la tarea será un poco más engorrosa, ya que debe hacerse manualmente, y seguro bajo presión de tiempo al momento de la salida.
 
 </template>
 
