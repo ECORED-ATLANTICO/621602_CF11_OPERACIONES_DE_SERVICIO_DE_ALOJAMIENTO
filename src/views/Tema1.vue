@@ -117,25 +117,10 @@
                   td $24.362
 
     .p-4.py-3.rounded-4.bg-acento-botones-a5.mb-5
+
       p.mb-0 Existe una tarifa diferencial en el IVA, del 5 %, esta solo aplica para algunos productos de la canasta familiar y algunos servicios como los de protección. Adicionalmente hay una serie de productos, la mayoría de ellos de la canasta básica familiar (arroz, papa, leche, huevos, etc.) y de servicios básicos (educación, salud, entre otros.) que están exentos de IVA, es decir tiene tasa 0 %. (DIAN, 2021).
-
-    .row.justify-content-center.mb-5
-      .col-12.col-lg-10.mb-0.col-md-12
-        .cita-decorada
-          blockquote.cita-decorada__caja.p-3.bg-acento-contenido-a5.rounded-4
-            .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.mb-3.mb-lg-0
-                img(src="@/assets/curso/common/newspaper.png", class="img-fluid cita-decorada__imagen-flotante-4 cita-decorada__imagen-flotante-4--bigger")
-              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                h5.mb-1 IVA canasta familiar
-                p.mb-0.text-center.text-lg-start Conoce en este documento el listado de productos de la canasta familiar con la tarifa del IVA que aplica en Colombia.
-              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
-                a.boton.color-acento-botones.my-2(:href="obtenerLink('/downloads/1_Limpieza_y_desinfeccion.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
-
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
-      h5.mb-0 Principios de biomecánica aplicada
+      h5.mb-0 Impuesto al consumo
 
     .mt-5.pt-4
       .fullwidth-bg.fullwidth-bg--1
