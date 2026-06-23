@@ -35,14 +35,14 @@
           p.mb-4.mb-lg-0 $9.100 + $1.729 = $10.829
         .col-sm-6.col-lg-3
           figure
-            img.w-130(src="@/assets/curso/tema1/3.svg", alt="" data-aos="zoom-in-down")
+            img.w-130(src="@/assets/curso/tema1/3.svg", alt="")
       .row.align-items-center.justify-content-center(numero="b" titulo="Ejemplo de la cadena comercial")
         .col-lg-9
           p.mb-0 Un fabricante de sábanas le compra 3 metros de genero por un total de $32.487 IVA incluido.
           p.mb-4.mb-lg-0 Luego de confeccionar los juegos de cama los vende a un hotel por $75.000 IVA incluido. Finalmente, el hotel utiliza las sábanas y vende su servicio de alojamiento por $150.000 + IVA.
         .col-sm-6.col-lg-3
           figure
-            img.w-130(src="@/assets/curso/tema1/4.svg", alt="" data-aos="zoom-in-down")
+            img.w-130(src="@/assets/curso/tema1/4.svg", alt="")
       .row.align-items-center.justify-content-center(numero="c" titulo="Aplicación del IVA en cada etapa de la cadena productiva")
         .col-lg-9
           p En este caso, hay tres momentos del impuesto (en cascada)
@@ -51,7 +51,7 @@
           p.mb-0 El hotel que es el usuario final también debe pagar IVA por los servicios que presta, en su caso puede descontar el IVA que pagó por los tendidos.
         .col-sm-6.col-lg-3
           figure
-            img.w-130(src="@/assets/curso/tema1/5.svg", alt="" data-aos="zoom-in-down")
+            img.w-130(src="@/assets/curso/tema1/5.svg", alt="")
       .row.align-items-center.justify-content-center(numero="d" titulo="Determinación del IVA a declarar por cada actor económico")
         .col-lg-9
           p Si llevamos esto a la matemática veremos que:
@@ -64,7 +64,7 @@
               p.mb-0 El hotel luego de su cierre contable declarará el IVA recaudado, descontando el IVA pagado. Es decir $16.525.
         .col-sm-6.col-lg-3
           figure
-            img.w-130(src="@/assets/curso/tema1/6.svg", alt="" data-aos="zoom-in-down")
+            img.w-130(src="@/assets/curso/tema1/6.svg", alt="")
       .row.align-items-center.justify-content-center(numero="e" titulo="Impuesto al Valor agregado - IVA")
         .col-lg-12
           .titulo-sexto.color-acento-contenido
@@ -204,7 +204,7 @@
       .col-lg-8
         p La tarifa del 9 % la podrán aplicar por un término de 20 años. Este beneficio también aplica para los servicios prestados en hoteles ubicados en municipios de hasta 200.000 habitantes, y que se remodelen o amplíen entre 2017 y 2026. La tarifa del 9 % podrá ser aplicada durante 20 años, pero solo sobre la proporción que represente la remodelación o ampliación del costo fiscal del inmueble. (Actualícese, 2018).
         p.mb-4.mb-lg-0 Los requisitos que deberán cumplir los nuevos hoteles son los que se encuentran señalados en el artículo 5 del Decreto 2755 de septiembre 30 de 2003, recopilado en el artículo 1.2.1.22.11 del DECRETO 1625 de 2016:
-      .col-sm-8.col-lg-4
+      .col-sm-8.col-lg-4.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/13.png", alt="")
 

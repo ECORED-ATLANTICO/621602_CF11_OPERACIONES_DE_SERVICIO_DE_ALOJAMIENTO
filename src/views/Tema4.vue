@@ -45,7 +45,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/3.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        LineaTiempoD.color-primario.mb-4
+        LineaTiempoD.color-primario.mb-4.variante-secundario
           .row.justify-content-center(numero="1" titulo="Paso 1")
             p.mb-0 Un huésped se acerca a pagar la cuenta e informa que del valor de la habitación su compañía solo le cubre el 70 % y él pagará el 30 % restante. Adicionalmente, en ese momento el hotel experimenta un corte de energía y usted solo dispone del valor total del alojamiento ($574.000 + IVA) en un informe impreso que se generó de la auditoría.
           .row.justify-content-center(numero="2" titulo="Paso 2")

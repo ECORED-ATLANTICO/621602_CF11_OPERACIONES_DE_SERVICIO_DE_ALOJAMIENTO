@@ -89,7 +89,7 @@
 
     p.mb-4.mb-lg-5 El Art. 617. Establece los requisitos de la factura de venta para efectos tributarios, la expedición de factura a que se refiere el artículo 615 consiste en entregar el original de esta, con el lleno de los siguientes requisitos:
 
-    SlyderF(columnas="col-lg-6 col-xl-4 mb-5")
+    SlyderF(columnas="col-sm-6 col-xl-4 mb-5")
       .tarjeta.bg-img.bg-img--3.p-4.py-5.h-100
         .row.justify-content-center.mb-3
           .col-6

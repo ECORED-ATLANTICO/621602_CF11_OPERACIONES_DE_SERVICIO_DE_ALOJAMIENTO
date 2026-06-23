@@ -43,7 +43,7 @@
               img(src="@/assets/curso/tema5/2.png", alt="")
           .crd_hover_txt--body.bg-acento-contenido-a5
             h4.mb-3.text-start Débitos
-            p.mb-0.text-start Registra los cargos a cuenta huésped que se realizan durante el día, es decir, la venta de alojamiento, alimentos, bebidas, teléfonos y lavandería entre otros.
+            p.mb-0.text-start.text-custom Registra los cargos a cuenta huésped que se realizan durante el día, es decir, la venta de alojamiento, alimentos, bebidas, teléfonos y lavandería entre otros.
     
       .col-lg-6.col-md-9.col-11
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -52,7 +52,7 @@
               img(src="@/assets/curso/tema5/3.png", alt="")
           .crd_hover_txt--body.bg-acento-contenido-a5
             h4.mb-3.text-start Créditos
-            p.mb-0.text-start Relaciona los descargos a la cuenta huésped como efecto de la cancelación de facturas, considerando básicamente efectivo, tarjetas de crédito o débito, divisas y particulares. Las columnas de descuento y depósito aplican como crédito al aplicarles dichas situaciones. (Scheel, 1992).
+            p.mb-0.text-start.text-custom Relaciona los descargos a la cuenta huésped como efecto de la cancelación de facturas, considerando básicamente efectivo, tarjetas de crédito o débito, divisas y particulares. Las columnas de descuento y depósito aplican como crédito al aplicarles dichas situaciones. (Scheel, 1992).
 
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Tipos de cuentas huésped
@@ -70,7 +70,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/5.png", alt="" data-aos="zoom-in-down")
       .col-xl-7
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-primario.variante-secundario
           .row(numero="1" titulo="Abonos")
             .col-auto
               p.mb-0 Un abono hace referencia al pago que registra un huésped para disminuir el saldo de la cuenta a su cargo, es decir que, si el monto adeudado es superior al pagado, se genera este tipo de movimiento.
@@ -117,29 +117,10 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 1.
-          span Tipos de cargos hoteleros
-        .row.justify-content-center.align-items-stretch.mb-2
-          .col-lg-6.overflow-hidden.rounded-4
-            .p-4.py-3.bg-secundario-s5.rounded-4.mb-2
-              p.mb-2 CASO A  
-              p.mb-0 #[strong Anticipo excede el consumo]
-            .p-4.py-3.bg-acento-botones-a5.rounded-4.mb-2.mb-lg-0.height-custom
-              p Valor del anticipo reportado el día del registro: $500.000
-              p Monto total de sus consumos: $420.000
-              p Devolución generada: $80.000
-
-          .col-lg-6
-            .p-4.py-3.bg-secundario-s5.rounded-4.mb-2
-              p.mb-2 CASO B  
-              p.mb-0 #[strong Devolución por tasa de cambio]
-            .p-4.py-3.bg-acento-botones-a5.rounded-4
-              p Valor de los consumos: $420.000
-              p Tasa de cambio del dólar: $3.350
-              p Dólares a pagar ($420.000 / $3.350): USD $125,38
-              p Dólares entregados por el huésped: USD $130
-              p Devolución generada (130 - 125,38) * $3.350: $15.477
-      
+          h5 Figura 2.
+          span Caso de devoluciones
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/6-mob.svg", alt="Dos ejemplos de devolución de anticipos en un hotel.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/6.svg", alt="Dos ejemplos de devolución de anticipos en un hotel.")
         figcaption Nota. SENA, (2021).
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t5").mb-5
