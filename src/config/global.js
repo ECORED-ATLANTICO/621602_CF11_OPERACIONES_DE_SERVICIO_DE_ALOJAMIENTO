@@ -155,8 +155,7 @@ export default {
     {
       referencia:
         'Peña, A. (2010). <em>Contabilidad hotelera, de restaurantes y de gestión</em>. Cartagena: Universidad Libre.',
-      link:
-        'http://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/ceac/CONTABILIDAD_HOTELERA_DE_RESTAURANTES_Y_DE_GESTION.pdf',
+      link: '',
     },
     {
       referencia:

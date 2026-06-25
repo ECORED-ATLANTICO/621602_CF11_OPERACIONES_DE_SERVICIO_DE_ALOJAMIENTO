@@ -24,7 +24,7 @@
         .col-lg-9
           .p-4.bg-secundario-s5.rounded-4.mb-3
             p.mb-0 Dentro de este proceso, el área de recepción, y especialmente la sección de caja, desempeña un papel fundamental. Diariamente se registran y consolidan múltiples cargos, pagos, abonos y otros movimientos generados por los huéspedes y por los diferentes servicios ofrecidos dentro del establecimiento, lo que exige una gestión organizada y rigurosa de la información financiera.
-          p.mb-0 Para facilitar esta labor, los hoteles suelen apoyarse en herramientas como el sistema uniforme de cuentas y los sistemas de gestión hotelera o PMS (Property Management System), que permiten centralizar y controlar las operaciones. En este componente de formación se abordarán los procesos técnicos necesarios para administrar de manera eficiente los movimientos financieros y garantizar una gestión exitosa de las cuentas de los huéspedes.    
+          p.mb-0 Para facilitar esta labor, los hoteles suelen apoyarse en herramientas como el sistema uniforme de cuentas y los sistemas de gestión hotelera o PMS (#[em Property Management System]), que permiten centralizar y controlar las operaciones. En este componente de formación se abordarán los procesos técnicos necesarios para administrar de manera eficiente los movimientos financieros y garantizar una gestión exitosa de las cuentas de los huéspedes.    
 </template>
 
 <script>

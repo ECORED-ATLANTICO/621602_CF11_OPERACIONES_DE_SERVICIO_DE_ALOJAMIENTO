@@ -35,7 +35,7 @@
         .p-4.py-3.rounded-4.bg-img.h-100
           p.mb-0 Aunque los registros contables se realicen en un sistema PMS estas operaciones básicas le servirán para la validación y el control de los registros, para realizar los arqueos y cierres de movimiento. Se sugiere tenerlas muy en cuenta si no se tiene acceso a sistemas computarizados.
 
-    p.mb-4 #[strong Porcentajes:] Aprender a calcular porcentajes, le será de gran utilidad para dividir cuentas en partes desiguales. Esta operación es relativa a la proporcionalidad matemática y se puede calcular por medio de la regla de tres.
+    p.mb-4 #[strong Porcentajes:] aprender a calcular porcentajes, le será de gran utilidad para dividir cuentas en partes desiguales. Esta operación es relativa a la proporcionalidad matemática y se puede calcular por medio de la regla de tres.
 
     .p-4.py-3.rounded-5.bg-acento-contenido-a10.mb-4
       p.mb-0.text-center Esta es una operación matemática cuyo concepto es, encontrar un valor incógnito a partir de tres valores conocidos. Se analizará, con la siguiente situación.

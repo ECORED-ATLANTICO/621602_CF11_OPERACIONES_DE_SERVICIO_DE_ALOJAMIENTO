@@ -145,10 +145,10 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema6/12.svg", alt="" data-aos="zoom-in-down")
       .col-lg-9
-        p.mb-0 Parágrafo:
+        p.mb-0 #[strong Parágrafo]
         p En el caso de las empresas que venden tiquetes de transporte no será obligatorio entregar el original de la factura. Al efecto, será suficiente entregar copia de esta.
 
-        p.mb-0 Parágrafo:
+        p.mb-0 #[strong Parágrafo]
         p.mb-0 Para el caso de facturación por máquinas registradoras será admisible la utilización de numeración diaria o periódica, siempre y cuando corresponda a un sistema consecutivo que permita individualizar y distinguir de manera inequívoca cada operación facturada, ya sea mediante prefijos numéricos, alfabéticos o alfanuméricos o mecanismos similares.
 
     .p-4.py-3.bg-terciario-t5.rounded-4.mb-4
@@ -203,7 +203,7 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema6/14.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
         p La división es un proceso que se va a encontrar en el día a día del trabajo de caja. Consiste en pasar cargos de un folio a otro dentro la misma cuenta huésped. Como mencionamos al momento del registro el sistema abre un folio para que se efectúen los cargos del cliente. Pero muchas veces por control de costos o por organización los clientes pedirán que los cargos de alojamiento se facturen aparte de los otros gastos. Esto puede suceder porque la habitación la cubre la empresa y los gastos extras el huésped o por otras razones.
-        p.mb-0 En los sistemas informáticos PMS, esta tarea es muy sencilla, ya que solo se debe marcar el cargo y pasarlo a otra ventana (así se conocen los subfolios dentro de la misma cuenta) Si no se utiliza sistema PMS, la tarea será un poco más engorrosa, ya que debe hacerse manualmente, y seguro bajo presión de tiempo al momento de la salida.
+        p.mb-0 En los sistemas informáticos PMS, esta tarea es muy sencilla, ya que solo se debe marcar el cargo y pasarlo a otra ventana (así se conocen los subfolios dentro de la misma cuenta). Si no se utiliza sistema PMS, la tarea será un poco más engorrosa, ya que debe hacerse manualmente, y seguro bajo presión de tiempo al momento de la salida.
 
 </template>
 

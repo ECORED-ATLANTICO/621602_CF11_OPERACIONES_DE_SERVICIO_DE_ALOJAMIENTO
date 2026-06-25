@@ -41,14 +41,14 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t5").mb-5
       .row.justify-content-center.align-items-center(titulo="Saldos elevados")
         .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
-          p Este es un método de control que consiste en un recuento de todas las transacciones en un periodo determinado (débitos / créditos). Esta comprobación tiene como propósito ver si se ha contabilizado todo el dinero recibido y si el saldo que muestra el PMS (o planilla) es correcto.
-          p.mb-0 El dinero que se encuentra en la caja de recepción tiene un cierto grado de exposición al público y riesgo de robo, pérdida o simplemente de una contabilización errada. Se recomienda arquear la caja al menos una vez al día en cada turno.
+          p.mb-0 Es una política administrativa, que previene posibles fraudes por pagos. Es responsabilidad del auditor nocturno revisar a diario los huéspedes y sus respectivas garantías, con el fin de determinar los casos en los cuales el saldo excede el valor límite autorizado por la política del hotel. 
         .col-sm-8.col-lg-4.col-xl-3
           figure
             img(src="@/assets/curso/tema3/3.png", alt="")
       .row.justify-content-center.align-items-center(titulo="Arqueos de caja")
         .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
-          p.mb-0 Es una política administrativa, que previene posibles fraudes por pagos. Es responsabilidad del auditor nocturno revisar a diario los huéspedes y sus respectivas garantías, con el fin de determinar los casos en los cuales el saldo excede el valor límite autorizado por la política del hotel.
+          p Este es un método de control que consiste en un recuento de todas las transacciones en un periodo determinado (débitos / créditos). Esta comprobación tiene como propósito ver si se ha contabilizado todo el dinero recibido y si el saldo que muestra el PMS (o planilla) es correcto. 
+          p.mb-0El dinero que se encuentra en la caja de recepción tiene un cierto grado de exposición al público y riesgo de robo, pérdida o simplemente de una contabilización errada. Se recomienda arquear la caja al menos una vez al día en cada turno. 
         .col-sm-8.col-lg-4.col-xl-3
           figure
             img(src="@/assets/curso/tema3/4.png", alt="")

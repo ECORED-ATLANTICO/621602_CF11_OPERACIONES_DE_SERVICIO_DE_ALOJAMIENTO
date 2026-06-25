@@ -14,7 +14,7 @@
       .row.justify-content-center.z-2.mb-3
         .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
           div.banner-text.shadow
-            p.mb-0 La industria turística y hotelera ha pasado por varios periodos de crisis o bonanzas, acorde con esto se han promulgado normas específicas desde un marco normativo tributario. En general un negocio hotelero está obligado a pagar impuestos nacionales (Impuesto al Valor Agregado - IVA, e Impuesto sobre la renta) Impuestos departamentales (Impuesto al consumo – Impoconsumo) Impuestos locales (Industria y Comercio - ICA) y en algunos lugares sobretasas a la explotación turística y hotelera. Conozcamos sobre ellos.
+            p.mb-0 La industria turística y hotelera ha pasado por varios periodos de crisis o bonanzas, acorde con esto se han promulgado normas específicas desde un marco normativo tributario. En general un negocio hotelero está obligado a pagar impuestos nacionales (Impuesto al Valor Agregado - IVA, e Impuesto sobre la renta) Impuestos departamentales (Impuesto al consumo - Impoconsumo) Impuestos locales (Industria y Comercio - ICA) y en algunos lugares sobretasas a la explotación turística y hotelera. Conozcamos sobre ellos.
 
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
       h5.mb-0 Impuesto al Valor Agregado (IVA)
@@ -137,7 +137,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t5").mb-4
       .row.justify-content-center.align-items-center(titulo="Tarifa impoconsumo 16 %")
         .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
-          p Pick-up cuyo valor FOB (valor free on board) o el equivalente del valor FOB estén en el rango de precio de alguna de las dos tarifas para las que pueden aplicar.
+          p #[em Pick-up] cuyo valor FOB (valor #[em free on board]) o el equivalente del valor FOB estén en el rango de precio de alguna de las dos tarifas para las que pueden aplicar.
           p Motocicletas con motor de émbolo (pistón) alternativo de cilindraje superior a 200 c.c.
           p Yates, barcos y embarcaciones de recreo o deporte; barcas (botes) de remo y canoas.
           p Globos, dirigibles, planeadores y demás aeronaves, no propulsados con motor de uso privado.
@@ -148,11 +148,11 @@
       .row.justify-content-center.align-items-center(titulo="Tarifa impoconsumo 8 %")
         .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
           p Vehículos automóviles de tipo familiar y los camperos cuyo valor FOB (o el equivalente del valor FOB) sea menor de USD $30.000, incluyendo sus accesorios.
-          p Las Pick-up cuyo valor FOB (o el equivalente del valor FOB) sea menor de USD $30.000, incluyendo sus accesorios.
+          p Las #[em Pick-up] cuyo valor FOB (o el equivalente del valor FOB) sea menor de USD $30.000, incluyendo sus accesorios.
           p Motocicletas con motor de émbolo alternativo de cilindrada mayor a 200 c.c.
           p Yates y otras embarcaciones o barcos de recreo o uso deportivo, incluyendo botes de remo y canoas.
           p Servicios de comidas y bebidas en restaurantes y bares.
-          p.mb-4.mb-lg-0 Nota: Este impuesto no es aplicable a las actividades de expendio de bebidas y comidas bajo franquicias.
+          p.mb-4.mb-lg-0 Nota: este impuesto no es aplicable a las actividades de expendio de bebidas y comidas bajo franquicias.
         .col-sm-8.col-lg-4.col-xl-3
           figure
             img(src="@/assets/curso/tema1/9.png", alt="")
@@ -220,8 +220,7 @@
         .p-4.py-3.rounded-4.bg-acento-botones-a5.mb-2
           p.mb-0 Certificado expedido por la Curaduría Urbana, Secretaría de Planeación o por la entidad que haga sus veces del domicilio del inmueble. En este, debe constar la aprobación del proyecto de construcción del nuevo hotel.
         .p-4.py-3.rounded-4.bg-acento-botones-a5.mb-2
-          p.mb-0 Certificado expedido por el representante legal y el revisor fiscal o contador público, en el que conste que los servicios hoteleros están debidamente autorizados y que se lleva una contabilidad separada para los ingresos por servicios hoteleros.
-
+          p.mb-0 Certificado expedido por el representante legal y el revisor fiscal o contador público, en el que conste que los servicios hoteleros están debidamente autorizados y que se lleva una contabilidad separada para los ingresos por servicios hoteleros y los generados por otras actividades.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8

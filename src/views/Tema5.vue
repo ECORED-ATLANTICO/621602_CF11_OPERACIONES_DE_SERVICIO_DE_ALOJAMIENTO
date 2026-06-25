@@ -54,8 +54,10 @@
             h4.mb-3.text-start Créditos
             p.mb-0.text-start.text-custom Relaciona los descargos a la cuenta huésped como efecto de la cancelación de facturas, considerando básicamente efectivo, tarjetas de crédito o débito, divisas y particulares. Las columnas de descuento y depósito aplican como crédito al aplicarles dichas situaciones. (Scheel, 1992).
 
+    p.mb-4.mb-lg-5 Cuando el hotel cuenta con un sistema de administración, PMS, esté hace el cálculo automático de los saldos de la cuenta huésped y genera un reporte de auditoría que detalla el balance. 
+
     .bg-title.p-3.rounded-5.pe-5.mb-4(data-aos="fade-down-right")
-      h5.mb-0 Tipos de cuentas huésped
+      h5.mb-0 Tipos de cargos
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
@@ -126,21 +128,21 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t5").mb-5
       .row.justify-content-center.align-items-center(titulo="Documentos de soporte")
         .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
-          p Los documentos de soporte son registros que respaldan y evidencian las transacciones realizadas durante la estadía del huésped. Estos documentos permiten garantizar la trazabilidad de los movimientos efectuados en la cuenta, facilitar los procesos de control y verificación, y asegurar la correcta gestión administrativa y financiera del establecimiento. Como resultado de las operaciones registradas en el plan de cuentas y los movimientos generados en la cuenta huésped, se producen diversos documentos de soporte, entre los cuales se encuentran los descritos por Peña (2010):
+          p Los documentos de soporte son registros que respaldan y evidencian las transacciones realizadas durante la estadía del huésped. Estos documentos permiten garantizar la trazabilidad de los movimientos efectuados en la cuenta, facilitar los procesos de control y verificación, y asegurar la correcta gestión administrativa y financiera del establecimiento. Como resultado de las operaciones registradas en el plan de cuentas y los movimientos generados en la cuenta huésped, se producen diversos documentos de soporte, entre los cuales se encuentran los descritos por Peña (2010).
         .col-sm-8.col-lg-4.col-xl-3
           figure
             img(src="@/assets/curso/tema5/6.png", alt="")
       .row.justify-content-center.align-items-center(titulo="Soportes de débito")
         .col-sm-10.col-lg-8.col-xl-8.mb-4.mb-lg-0
-          p Los movimientos de débito, como lo menciona Peña (2010) es decir los que aumentan la cuenta del cliente, deben tener como soporte, comandas o soportes de consumo debidamente firmadas por:
-          p.mb-0 Cargos por los consumos en los diferentes ambientes del hotel (restaurante, bar, room service, bar habitación, banquetes y eventos).
+          p Los movimientos de débito, como lo menciona Peña (2010), es decir los que aumentan la cuenta del cliente, deben tener como soporte, comandas o soportes de consumo debidamente firmadas por:
+          p.mb-0 Cargos por los consumos en los diferentes ambientes del hotel (restaurante, bar, #[em room service], bar habitación, banquetes y eventos).
           p.mb-0 Cargos en los servicios de comunicaciones (Internet, teléfono, fax, etc.).
           p.mb-0 Cargos por los servicios de banquetes.
           p.mb-0 Cargos por anticipos a huéspedes (en caso de que esté contemplado dentro de las políticas del hotel).
           p.mb-0 Cargos por las ventas de tiendas por departamentos.
           p.mb-0 Cargos por los servicios de peluquería.
           p.mb-0 Cargos por los servicios de taxis.
-          p.mb-0 Transferencias de naturaleza débito (cargos asumidos de otras cuentas)..
+          p.mb-0 Transferencias de naturaleza débito (cargos asumidos de otras cuentas).
           p.mb-0 Cargos por consumos en negocios con los cuales el hotel mantenga convenios comerciales.
           p.mb-0 Los cargos por servicios de alojamiento, que se realizan en la auditoría nocturna se soportan en el contrato de alojamiento.
         .col-sm-8.col-lg-4.col-xl-3
