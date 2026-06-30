@@ -65,11 +65,11 @@
         .col-sm-6.col-lg-3
           figure
             img.w-130(src="@/assets/curso/tema1/6.svg", alt="")
-      .row.align-items-center.justify-content-center(numero="e" titulo="Impuesto al Valor agregado - IVA")
+      .row.align-items-center.justify-content-center(numero="e" titulo="Impuesto al Valor Agregado - IVA")
         .col-lg-12
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
-            span Impuesto al Valor agregado - IVA
+            span Impuesto al Valor Agregado - IVA
           .tabla-a.color-acento-contenido.tabla-a--text-left
             table
               caption Nota. SENA, (2026).
